@@ -1,0 +1,22 @@
+.user-list {
+  display: grid;
+  gap: 32px;
+}
+
+.loader-wrapper {
+    display: grid;
+    justify-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  .user-list {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .user-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

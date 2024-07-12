@@ -1,0 +1,32 @@
+.user-card {
+  display: grid;
+  justify-items: center;
+  border-radius: 10px;
+  padding: 32px 12px;
+  box-shadow: 0px 8px 15px -2px rgba(0, 0, 0, 0.52);
+}
+
+h3 {
+  margin-bottom: 16px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.phone {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 1024px) {
+  .user-card {
+    font-size: 20px;
+  }
+  .phone {
+    font-size: 18px;
+  }
+}
